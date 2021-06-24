@@ -1,0 +1,340 @@
+textarea {
+    border: none;
+    resize: none;
+    outline: none;
+}
+
+select {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+}
+
+input{
+    outline: none;
+    padding-bottom: 15px;
+}
+
+::placeholder{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+
+.select-option-font{
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+}
+
+.banner-contact{
+    position: relative;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    min-width: 620px;
+}
+
+.banner-contact::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #515070;
+}
+
+.banner-contact-image{
+    width: 100%;
+    opacity: 0.9;
+}
+
+.section-contact{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: white;
+}
+
+.division-forms-content{
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-flow: row;
+    margin: 0;
+    padding: 0;
+}
+
+.division-info-block{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5% 10% 5% 5%;
+}
+
+.division-forms{
+    width: 100%;
+    padding: 5% 5% 5% 0;
+}
+
+.division-forms-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.division-forms-header-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FF8E6E;
+    margin-bottom: 50px;
+}
+
+.division-forms-header-image{
+    height: 100%;
+    width: auto;
+}
+
+.division-forms-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.division-forms-inputs-rows{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.division-forms-inputs-rows-div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.division-forms-inputs-rows-div-radio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border: none;
+    border-bottom: 1px solid #D7D7D7;
+    padding-bottom: 15px;
+}
+
+.division-forms-inputs-name{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #898989;
+    margin-bottom: 10px;
+}
+
+.division-forms-inputs-radio-text{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #898989;
+    margin: 0px 10px 0px 10px;
+}
+
+.division-forms-inputs-checkbox-text{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: #898989;
+    margin-right: 20px;
+}
+
+.division-forms-inputs-checkbox-text:link{
+    text-decoration: none;
+    color: #898989;
+}
+
+.forms-input{
+    border: none;
+    border-bottom: 1px solid #D7D7D7;
+    margin-right: 10px;
+}
+
+.checkbox-input{
+    border: none;
+    border-bottom: 1px solid #D7D7D7;
+    margin-right: 10px;
+}
+
+.division-info-block-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.division-info-block-content{
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.division-info-block-size-controller{
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 30px;
+    object-fit:fill;
+    margin-right: 15px;
+}
+
+.division-icon{
+    height: 100%;
+}
+
+.division-info-block-details{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: white;
+}
+
+
+.send-button{
+    width: 150px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    align-items: center;
+    border-radius: 3px;
+    padding: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    background: #515070;
+    font-size: 19px;
+    border: none;
+}
+
+.space-row{
+    width: 50px;
+    background: transparent;
+}
+
+.space-column{
+    height: 25px;
+    background: transparent;
+}
+
+
+.container-contact{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 75%;
+}
+
+.politica-link{
+    text-decoration: none;
+    color: #898989;
+}
+
+@media (max-width: 600px){
+    .banner-contact{
+        height: 50vh;
+        width: 100%;
+        min-width: 0%;
+        object-fit: cover;
+    }
+
+    .banner-contact-image{
+        height: 50vh;
+        width: 100%;
+        min-width: 0%;
+        object-fit: cover;
+    }
+
+    .banner-contact::before{
+        height: 50vh;
+        width: 100%;
+        min-width: 0%;
+    }
+
+    .space-column{
+        height: 0;
+    }
+
+    .division-forms-content{
+        flex-flow: column;
+    }
+
+    .division-forms {
+        padding: 10%;
+    }
+
+    .division-forms-header-title{
+        font-size: 15px;
+    }
+
+    .container-info{
+        flex-direction: column;
+        max-width:100%;
+    }
+
+    .forms-input{
+      margin: 0;
+    }
+
+    .division-forms-inputs-rows{
+        flex-direction: column;
+    }
+
+    .division-forms-inputs-rows-div{
+        margin-bottom: 20px;
+    }
+
+    .division-forms-inputs-checkbox-text{
+        margin: 0 0 15px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .division-forms-inputs-checkbox-text-wrap{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .division-info-block-title{
+        margin-bottom: 100px;
+    }
+
+    .division-info-block{
+        width: 100%;
+        padding-bottom: 120px;
+    }
+
+    .division-info-block-content{
+        padding-right: 15%;
+    }
+}

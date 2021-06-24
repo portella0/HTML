@@ -1,0 +1,471 @@
+* {
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box; 
+}
+
+ul{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh 
+}
+
+.images-section{
+    padding: 5%;
+}
+
+.phone-image{
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+}
+
+.division-phone-image1{
+    width: 100%;
+    height: auto;
+    display:flex;
+}
+
+.division-phone-image2{
+    display:none;
+}
+
+.funcionalidade-colunas{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.funcionalidade-texto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #FF8E6E;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-top: 5%;
+}
+
+.division-fone{
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.titulo-fone{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.texto-fone{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+.division{
+    width: 100%;
+    padding: 2%;
+    height: auto;
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: 5% 0%;
+}
+
+.division-depoimento{
+    width: 100%;
+    padding: 2%;
+    height: auto;
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+    margin: 5% 0%;
+}
+
+.square-depoimento{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: auto;
+    margin: 2%;
+}
+
+.depoimento-padding{
+    padding: 10px 20px 10px 10px;
+}
+
+.nome-depoimento{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.data-depoimento{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.text-depoimento{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    justify-content: left;
+}
+
+img{
+    max-width: 100%;
+}
+
+.banner{
+    position: relative;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    min-width: 620px;
+}
+
+.gradient{
+    position: relative;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 800px;
+    min-width: 620px;
+}
+
+.section{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    min-width: 620px;
+    background: white;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.no-margin{
+    margin: 0;
+}
+
+.no-margin-left{
+    margin-left: 0;
+}
+
+.no-padding-top-bottom-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.no-padding-sides{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.no-padding-top{
+    padding-top: 0;
+}
+
+.no-padding{
+    padding: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.five-padding{
+    padding: 5px;
+}
+
+.justify-left{
+    justify-content: left;
+}
+
+.banner::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #515070;
+}
+
+.banner-image{
+    width: 100%;
+    opacity: 0.9;
+}
+
+.gradient-background{
+    background: linear-gradient(105.92deg, #515070 -8.44%, #6B69B0 94.86%);
+    width: 100%;
+    height: auto;
+}
+
+.banner-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.banner-title{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    margin-bottom: 2%;
+}
+
+.banner-text{
+    width: 60%;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 2%;
+}
+
+.section-text{
+    padding: 5% 0%;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 2%;
+}
+
+.section-first-text{
+    width: 60%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+.banner-button{
+    width: 180px;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border-radius: 3px;
+    padding: 20px 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.color-white{
+    color: white;
+}
+
+.color-grey{
+    color: gray;
+}
+
+.color-orange{
+    color: #FF8E6E;
+}
+
+.color-blue{
+    color: #515070;
+}
+
+.mobile-orange-to-blue{
+    background: #FF8E6E;
+}
+
+.background-orange{
+    background: #FF8E6E;
+}
+
+.background-blue{
+    background: #515070;
+}
+
+.background-light-grey{
+    background: #F6F6F6;
+}
+
+.background-white{
+    background: white;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 75%;
+}
+
+
+.container-funcionalidades{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 75%;
+    height: 100%;
+}
+
+.container-info{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 75%;
+}
+
+@media (max-width: 600px){
+    .container{
+        max-width: 98%;
+    }
+
+    .banner{
+        height: 100vh;
+        width: 100%;
+        min-width: 0%;
+        object-fit: cover;
+    }
+
+    .column-depoimento{
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .banner-content{
+        height: 100%;
+        width: 100%;
+        min-width: 0%;
+    }
+
+    .banner-image{
+        height: 100vh;
+        width: 100%;
+        min-width: 0%;
+        object-fit: cover;
+    }
+
+    .banner::before{
+        height: 100vh;
+        width: 100%;
+        min-width: 0%;
+    }
+
+    .banner-title{
+        font-size: 24px;
+        display: flex;
+        margin: 10px;
+    }
+    
+    .banner-text{
+        font-size: 10px;
+        display: flex;
+        margin: 10px;
+    }
+
+    .section-first-text{
+        font-size: 12px;
+        display: flex;
+        margin: 10px;
+    }
+
+    .banner-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px;
+        margin: 10px;
+        width: 135px;
+        height: 50px;
+        font-size: 12px;
+    }
+
+    .mobile-orange-to-blue{
+        background: #515070;
+    }
+
+    .section{
+        height: 100%;
+        width: 100%;
+        min-width: 0%;
+    }
+
+    .container-info{
+        flex-direction: column;
+        max-width: 98%;
+    }
+
+    .division{
+        padding: 0;
+    }
+
+    .section-text{
+        font-size: 12px;
+        display: flex;
+        margin: 10px;    
+    }
+
+    .nome-depoimento{
+        font-style: italic;
+    }
+
+    .division-depoimento{
+        flex-flow: column;
+    }
+
+    .depoimento-avatar
+    {
+        padding-right: 40%;
+        padding-left: 40%;
+    }
+
+    .division-phone-image1{
+        display:none;
+    }
+    
+    .division-phone-image2{
+        width: 100%;
+        height: auto;
+        display:flex;
+    }
+    
+    .funcionalidade-texto{
+        font-size: 150%;
+        margin-bottom: 60px;
+    }
+    .gradient{
+        width: 100%;
+        min-width: 0%;
+        height: 210vh;
+    }
+
+    .funcionalidade-colunas{
+        flex-direction: column;
+    }
+}
+
+
